@@ -45,6 +45,7 @@
     <Compile Include="CMP\settings.py" />
     <Compile Include="CMP\urls.py" />
     <Compile Include="CMP\wsgi.py" />
+    <Compile Include="app\admin.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />

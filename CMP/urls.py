@@ -6,7 +6,6 @@ from datetime import datetime
 from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
-# View haye 'app' , mituni az 'as' ham estefade koni
 from app import views
 from app import forms
 

@@ -21,7 +21,7 @@
     {% for post in posts %}
 
         <div class="col-md-4">
-        <h2>{{ post.title }} <small>توسط {{ post.author }} در {{ post.date_posted|date:"Y" }}</small></h2>
+        <h2>{{ post.title }} <small>توسط {{ post.author }} در {{ post.date_posted|date:"Y/m/d" }}</small></h2>
         <p>
               {{ post.content }}
         </p>
